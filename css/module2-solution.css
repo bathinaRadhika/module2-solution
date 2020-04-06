@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+}
+   h1{
+       text-align: center;
+       color: greenyellow;
+   }
+@media (min-width:992px){
+.col-1{
+    padding:  10px;
+    background-color: brown;
+    width:400px;
+        height: 150px;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+        text-align:left;
+    }
+    .col-2{
+        background-color: blue;
+        width: 400px;
+        height: 150px;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+    }
+    .col-3{
+        background-color: cyan;
+        width: 400px;
+        height: 150px;
+        float: left;
+        padding: 10px;
+    margin: 10px;
+    }
+    
+
+ #p1 {
+        
+        border: 1px solid black;
+        width:40px;
+       background-color: azure;
+       float: right;
+       margin-top: 0px;
+     
+      
+        
+    }
+    #p2{
+       
+        border: 1px solid black;
+       
+        width: 40px;
+        background-color: burlywood;
+        float:right;
+    }
+    #p3{
+        
+    
+        border: 1px solid black;
+        width: 50px;
+        background-color: darkmagenta;
+        float:right;
+    }
+}
+    
+
+
+  
+/*medium media-queriees*/
+@media (min-width: 768px) and (max-width: 991px) {
+       .col-1{
+        padding:  10px;
+        background-color: brown;
+        width:400px;
+        height: 150px;
+        float: left;
+        margin: 10px
+        
+    }
+    .col-2{
+        background-color: blue;
+        width: 400px;
+        height: 150px;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+    }
+    .col-3{
+        background-color: cyan;
+        width: 800px;
+        height: 150px;
+        float: right;
+        padding: 10px;
+    margin: 10px;
+    }
+    #p1 {
+        
+        border: 1px solid black;
+        width:40px;
+       background-color: azure;
+       float: right;
+       margin-top: 0px;
+     
+      
+        
+    }
+    #p2{
+       
+        border: 1px solid black;
+       width: 40px;
+        background-color: burlywood;
+        float:right;
+    }
+    #p3{
+        
+    
+        border: 1px solid black;
+        width: 50px;
+        background-color: darkmagenta;
+        float:right;
+    }
+    }
